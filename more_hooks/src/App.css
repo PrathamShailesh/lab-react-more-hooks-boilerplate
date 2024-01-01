@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  border-radius: 5px;
+  border: 0.5px black solid;
+}
+
+input:focus{
+  outline: 2px aqua solid;
+  border: none;
+}
+
+.searched_item{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  background-color: #FCDDBB;
+  
+
+}
+
+button{
+  width: 10vw;
+}
